@@ -9,9 +9,6 @@ body {
     width: 100%;
     margin: auto;
 }
-.heading{
-    font-family: 'Kalam', cursive;
-}
 .nav-bar{
     font-size: 2em;
     font-weight:bold;
@@ -37,3 +34,82 @@ body {
 .main-menu a:hover{
     color: bisque;
 }
+.heading{
+    background-color: #5588a3;
+    height: 90vh;
+
+}
+.sub-heading{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.text{
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    color: #e8e8e8;
+    font-weight: 100;
+}
+.text h1{
+    font-size: 8em;
+    letter-spacing: 0.1em;
+}
+.text h3{
+    font-size: 3em;
+    letter-spacing: 0.15em; 
+    font-weight: 100;
+}
+.image img{
+  width: 80%;  
+  padding: 0.5em;
+}
+
+.about-section{
+    background-color: #e8e8e8;
+    text-align: center;
+}
+.about-section h1{
+    margin: 0;
+    font-size: 4em;
+    color: #00334e;
+    letter-spacing: 0.1em;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 786px) {
+    .sub-heading{
+        flex-direction: column;
+        align-content: center;
+    }
+    .img{
+        width: 20%;
+    }
+    .text h1{
+        font-size: 4em;
+    }
+    .text h3{
+        font-size: 2em;
+    }
+    .heading{
+        height: auto;
+  }
+  .main-menu li{
+    display: inline;
+    padding: 0.3em;
+    }
+    .nav-bar{
+        font-size: 1.5em;
+    }
+}
+  
