@@ -215,5 +215,10 @@ body {
     .right{
         justify-content: center;
     }
+    .projects a{
+        text-decoration: none;
+        color: #5588a3;
+        font-size: 1em;
+    }
 }
   
