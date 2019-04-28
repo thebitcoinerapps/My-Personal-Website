@@ -70,12 +70,15 @@ body {
 .about-section{
     background-color: #e8e8e8;
     text-align: center;
+    padding-bottom: 2em;
 }
 .about-section h1{
     margin: 0;
     font-size: 4em;
     color: #00334e;
     letter-spacing: 0.1em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
 }
 .main-row{
     width: 80%;
@@ -114,12 +117,36 @@ body {
     width: 20%;
     height: 20%;
 }
-
-
-
-
-
-
+.projects{
+    background-color: #145374;
+    text-align: center;
+}
+.projects h1{
+    margin: 0;
+    font-size: 4em;
+    color: #e8e8e8;
+    letter-spacing: 0.1em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+.projects-div{
+    display: flex;
+    flex-direction: column;
+}
+.project-container{
+    background-color: black;
+    width: 70%;
+    height: 50px;
+    margin-top: 1em;
+}
+.left{
+    margin-right: 2em;
+    margin-left: auto;
+}
+.right{
+    margin-right: auto;
+    margin-left: 2em;
+}
 
 @media screen and (max-width: 786px) {
     .sub-heading{
