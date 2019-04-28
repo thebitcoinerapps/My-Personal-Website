@@ -121,6 +121,18 @@ body {
     background-color: #145374;
     text-align: center;
 }
+.projects a{
+    text-decoration: none;
+    color: #5588a3;
+}
+.projects a:hover{
+    color: #e8e8e8;
+}
+.projects a p{
+    padding-top: 1.4em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
 .projects h1{
     margin: 0;
     font-size: 4em;
@@ -132,20 +144,32 @@ body {
 .projects-div{
     display: flex;
     flex-direction: column;
+    width: 60%;
+    margin: auto;
 }
 .project-container{
-    background-color: black;
     width: 70%;
-    height: 50px;
     margin-top: 1em;
+    display: flex;
+    font-size: 2.5em;
+    color: #e8e8e8;
+}
+.project-container i{
+    color: #ffc785;
+}
+.project-container i, p{
+    margin: 0;
+    padding-bottom: 0.3em;
 }
 .left{
-    margin-right: 2em;
-    margin-left: auto;
-}
-.right{
     margin-right: auto;
     margin-left: 2em;
+    justify-content: flex-start;
+}
+.right{
+    margin-right: 2em;
+    margin-left: auto;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 786px) {
